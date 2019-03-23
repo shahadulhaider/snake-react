@@ -17,10 +17,10 @@ body {
 }
 
 .grid {
-  width: 600px;
-  height: 600px;
+  width: 560px;
+  height: 560px;
   display: grid;
-  background: #add6f0;
+  background: #d0f88f;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
 }
@@ -28,18 +28,21 @@ body {
 .cell {
   width: 28px;
   height: 28px;
-  border: 1px solid white;
+  margin: 0;
+  padding: 0;
+  border: none;
   display: inline-block;
 }
 
 .apple {
-  background: orangered;
+  background: url('./apple.png') no-repeat center;
 }
 
 .head {
-  background: orange;
+  border-radius: 25%;
+  background: #6566bb;
 }
 
 .tail {
-  background: #ffa600ab;
+  background: #6566bba9;
 }
